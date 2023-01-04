@@ -9,9 +9,15 @@
     <script src="./script.js" defer></script>
 </head>
 <body>
+    <section class="points">
+        <div>X's point: <span id="xCount">0</span></div>
+        <div>Circle's point: <span id="circleCount">0</span></div>
+    </section>
+    <button id="resetBtn" style=" margin-left:12px;cursor: pointer; border: 0; padding: 10px; border-radius: 8px; background-color: rgb(173, 116, 226); color: white; font-size: 1.3rem;">Reset Points</button>
+
     <div class="board" id="board">
         <div class="cell" data-cell></div>
-        <div class="cell circle" data-cell></div>
+        <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
         <div class="cell" data-cell></div>
